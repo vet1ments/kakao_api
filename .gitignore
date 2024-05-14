@@ -2,3 +2,8 @@
 .venv
 setup.py
 __pycache__
+.env
+*.env
+build
+dist
+kakao_api.egg-info
