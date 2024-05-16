@@ -1,9 +1,15 @@
 from setuptools import find_packages, setup
 
+with open("README.md", encoding="utf-8") as f:
+    long_description = f.read()
+
+
 setup(
     name='kakao_api_vet1ments',
     description="카카오 로그인 rest api",
     version='{{VERSION_PLACEHOLDER}}',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     python_requires='>=3.11.0',
     author="no hong seok",
     author_email="vet1ments@naver.com",
